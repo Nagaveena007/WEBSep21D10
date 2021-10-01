@@ -1,0 +1,53 @@
+table,th,td{
+   
+    border:1px solid black;
+width:fit-content;
+border-radius: 1pc;
+}
+body{
+    
+    align-self: center;
+    max-width: 500px;
+    padding: 10px;
+    margin: auto;
+}
+
+p {
+    color: rgb(0, 195, 255);
+  }
+  div p {
+    color: red;
+  }
+  div div > p {
+    color: blue;
+  }
+  h1{
+      align-self: center;
+  }
+  a{
+      color:darkgreen
+  }
+  .border{
+      border: 1px solid greenyellow;
+  }
+  p {
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+  }
+  .change{
+      font-size: 1pc;
+      text-size-adjust:79,54,41 ;
+  }
+  td{
+      border-color: green;
+  }
+  tr{
+      border-style: dotted;
+      
+  }
+  #b-green {
+    background-color: green;
+  }
