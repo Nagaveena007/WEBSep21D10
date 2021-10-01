@@ -134,9 +134,18 @@ addExtrarowToTable()
 
 const addClassToTableRow = function () {
     const title = document.querySelectorAll("tr");
-for(let i=0;i<tree.length;i++){
+for(let i=0;i<title.length;i++){
     let tr=title[i]
     tr.classList.add("test");
 }
   };
   addClassToTitle();
+
+  const addBackground = function () {
+      let link=document.querySelectorAll('a')
+      for(let i=0;i<link.length;i++){
+        let lr=link[i]
+        tr.classList.add("b-green")
+    }
+  }
+addBackground()
